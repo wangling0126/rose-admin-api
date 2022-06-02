@@ -52,11 +52,23 @@ export const menuList = [{
     "icon": "briefcase",
     "title": "常用组件",
     "path": "/assembly",
-    "children": [{
-        "path": "/assembly/batchImport",
-        "title": "批量导入数据",
-        "icon": "menu"
-    }]
+    "children": [
+        {
+            "path": "/assembly/batchImport",
+            "title": "批量导入数据",
+            "icon": "menu"
+        },
+        {
+            "path": "/assembly/overShowTooltips",
+            "title": "超出显示...",
+            "icon": "menu"
+        },
+        {
+            "path": "/assembly/virtualList",
+            "title": "虚拟列表",
+            "icon": "menu"
+        }
+   ]
 }, {
     "icon": "stamp",
     "title": "自定义指令",
